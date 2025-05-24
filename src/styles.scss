@@ -1,22 +1,93 @@
-.banner{
-    width: 100%;
-    background: linear-gradient(90deg, #f9d423 0%, #ff4e50 100%);
-    color: #fff;
-    padding: 2rem 0;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    letter-spacing: 1px;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9f6f2;
+  padding: 2rem 0;
+  .hero-img {
+    width: 350px;
+    border-radius: 1rem;
+    margin-right: 2rem;
+  }
+  .hero-text {
+    max-width: 400px;
+    h2 { color: #bfa14a; }
+    .hero-btn {
+      margin-top: 1rem;
+      padding: 0.5rem 1.5rem;
+      background: #bfa14a;
+      color: #fff;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  }
 }
 
-.company-info{
-    position: absolute;
-    top: 10%;
-    right: 2rem;
-    padding: 1rem 2rem;
-    font-size: 5rem;
-    font-weight: 600;
-    color:white;
-    border: 1px solid black
+.body-section {
+  padding: 2rem;
+  background: #fffbe6;
+  text-align: center;
+  h3 { color: #bfa14a; }
+  p { max-width: 600px; margin: 0 auto; }
+}
+
+.carousel-section {
+  padding: 2rem 0;
+  background: #f9f6f2;
+  text-align: center;
+  h3 { color: #bfa14a; }
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    button {
+      background: #bfa14a;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .carousel-img {
+      width: 300px;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+  }
+}
+
+.quad-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background: #fffbe6;
+  .quad {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1rem;
+    text-align: center;
+    width: 180px;
+    .quad-img {
+      width: 100%;
+      border-radius: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h4 { color: #bfa14a; }
+  }
+}
+
+.footer {
+  background: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
 }
